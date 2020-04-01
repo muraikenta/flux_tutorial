@@ -2,7 +2,7 @@
 ---
 * flux_tutorialのリポジトリをクローン
 ```
-$ git clone -b master https://github.com/Progate/flux_tutorial.git
+$ git clone -b master https://github.com/muraikenta/flux_tutorial.git
 ```
 
 * Dockerの起動
