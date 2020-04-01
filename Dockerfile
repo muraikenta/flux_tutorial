@@ -16,7 +16,8 @@ RUN apt-get update \
 
 RUN curl -sL https://deb.nodesource.com/setup_0.10 | bash -
 RUN apt-get install -y nodejs
-RUN npm install npm@latest -g
+RUN npm install npm@2.1 -g
+RUN npm install
 
 WORKDIR /api
 RUN gem install bundler:1.6.1
