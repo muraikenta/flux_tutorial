@@ -24,6 +24,5 @@ RUN gem install bundler:1.6.1
 COPY Gemfile  .
 COPY Gemfile.lock .
 RUN bundle install
-RUN npm install
-
 COPY . .
+RUN npm install
