@@ -13,7 +13,7 @@ $ docker-compose up
 
 * jsの自動ビルド
 ```sh
-$ docker-compose api npm run watch
+$ docker-compose exec api npm run watch
 ```
 
 ###セットアップ完了
